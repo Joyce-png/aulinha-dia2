@@ -13,6 +13,12 @@
         <li>Para adicionar todas as alterações de todos os arquivos usa-se o comando "git add .", para adicionar as alterações de um arquivo específico, acrescenta o nome do arquivo. Exemplo: git add outro-arquivo.html</li>
         <li>Após adicionar (git add), pode ser geito o primeiro commit na branch principal, usando o comando "git commit" com a mensagem do commit. O comando fica: git commit -m "primeiro commit"</li>
         <li>Depois do primeiro commit, após realizadas as alterações necessárias no projeto, já pode-se transferir as alterações para o repositório remoto (GitHub). Lembrando que antes disso é necessário criar o repositório remoto no GitHub. Após a criação do repositório remoto, o próprio GitHub apresenta os próximos comandos a serem usados.</li>
+        <li>Copiar e colar os comandos no terminal do vscode:
+            git remote add origin https://github.com/repositorioexemplo.git
+            git branch -M main 
+            git push -u origin main 
+            - a partir desse ponto as alterações posteriores seguem a mesma lógica para atualização sempre que feitas: adicionar (git add), commitar (git commit) e enviar para o servidor (git push).
+        </li>
     </ol>
     
 </body>
